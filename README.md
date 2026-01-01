@@ -4,7 +4,7 @@
 
 # Hi, I'm Balay Kumar Bagchi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />
 
-**Junior Web Developer** — building accessible, responsive, and user-centered web apps.
+**Junior Frontend Web Developer** — building accessible and responsive web apps while growing toward full-stack development.
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...
 
@@ -126,9 +126,11 @@ funFact: "Most bugs disappear after a coffee and a clean commit history"
 
 ## Current Activities
 
-- Exploring Next.js and server-side rendering optimizations.
-- Building a tourism website with interactive maps and booking flows.
-- Improving accessibility and performance on personal projects.
+- Developing full-stack projects with the **MERN** stack and proactively exploring **Next.js, PostgreSQL, and GraphQL** to prepare for more scalable and production-ready systems.
+
+- Enhancing **accessibility, responsiveness, and performance** across personal and collaborative projects using modern web best practices.
+- Actively building and refining full-stack features including **authentication, role-based access, and real-time interactions**.
+- Continuously improving code quality through refactoring, testing, and adopting scalable architectural patterns.
 
 ## Social
 
