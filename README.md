@@ -18,12 +18,12 @@ const dipto = {
     "Frontend Development",
     "Backend Development",
     "React.js",
-    "Express.js"
+    "Express.js",
     "Next.js",
     "MongoDB",
     "PostgreSQL",
     "Software Engineering",
-    "System Design"
+    "System Design",
   ],
 
   technologies: {
@@ -33,59 +33,40 @@ const dipto = {
       uiLibraries: [
         "Material UI",
         "Daisy UI",
-        "Lucide React Icons"
-        "shadcn/ui"
-      ]
+        "Lucide React Icons",
+        "shadcn/ui",
+      ],
     },
 
     backend: {
       node: ["Node.js", "Express"],
-      python: ["dJango"]
+      python: ["Django"],
     },
 
     databases: {
       relational: ["PostgreSQL", "MySQL"],
       nosql: ["MongoDB"],
       orm: ["Mongoose", "Prisma"],
-      inMemory: ["Redis"]
+      inMemory: ["Redis"],
     },
 
-    realtimeAndAPIs: [
-      "REST APIs",
-      "WebSockets",
-      "Socket.IO",
-      "Webhook"
-    ],
+    realtimeAndAPIs: ["REST APIs", "WebSockets", "Socket.IO", "Webhooks"],
 
-    ai: [
-        "ChatGPT",
-        "Gemini",
-        "Cursor"
-    ],
+    ai: ["ChatGPT", "Gemini", "Cursor"],
 
-    tools:[
-        "VS Code",
-        "Antigravity",
-        "Git",
-        "GitHub",
-        "Chrome Dev Tool",
-    ],
+    tools: ["VS Code", "Figma", "Git", "GitHub", "Chrome DevTools"],
 
-    deploy:[
-        "Firebase",
-        "Netlify",
-        "Render",
-        "Vercel"
-    ]
+    deploy: ["Firebase", "Netlify", "Render", "Vercel"],
   },
 
   architecture: {
     frontend: ["SPA", "SSR"],
     backend: ["monolith", "microservices", "serverless"],
-    data: ["relational", "nosql", "in-memory"]
+    data: ["relational", "nosql", "in-memory"],
   },
-currentFocus:"Building clean, responsive, and user-friendly web applications using React, JavaScript, Tailwind CSS, Express.js, MongoDB and PostgreSQL",
-funFact: "Most bugs disappear after a coffee and a clean commit history"
+  currentFocus:
+    "Building clean, responsive, and user-friendly web applications using React, JavaScript, Tailwind CSS, Express.js, MongoDB and PostgreSQL",
+  funFact: "Most bugs disappear after a coffee and a clean commit history",
 };
 ```
 
