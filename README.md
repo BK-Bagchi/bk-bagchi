@@ -124,13 +124,22 @@ const dipto = {
 ## GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=bk-bagchi&show_icons=true&theme=default" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bk-bagchi&layout=compact&theme=default" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=bk-bagchi&show_icons=true&theme=default" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bk-bagchi&layout=compact&theme=default" />
 </p>
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bk-bagchi&theme=default" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=bk-bagchi&theme=default" />
 </p>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bk-bagchi&theme=default" />
+
+<p align="left">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bk-bagchi&theme=default" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bk-bagchi&theme=default" />
+</p>
+
+<img src="https://github-profile-trophy.vercel.app/?username=bk-bagchi&theme=flat&margin-w=10" />
 
 ## Contributions & Activity
 
