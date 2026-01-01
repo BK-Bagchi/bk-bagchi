@@ -128,6 +128,9 @@ const dipto = {
   <a href="mailto:bkbagchi.dipto@gmail.com" target="_blank">
     <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+  <a href="https://wa.me/88013723399" target="_blank">
+    <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
   <a href="http://bkbagchi-dipto.netlify.app" target="_blank">
     <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-4CAF50?style=for-the-badge&logo=appveyor&logoColor=white" />
   </a>
