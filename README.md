@@ -141,12 +141,12 @@ funFact: "Most bugs disappear after a coffee and a clean commit history"
 ## GitHub Stats
 
 <p align="left">
-	<img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=bk-bagchi&show_icons=true&count_private=true&theme=default" />
-	<img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bk-bagchi&layout=compact&theme=default" />
+  <img src="https://github-readme-stats.vercel.app/api?username=bk-bagchi&show_icons=true&theme=default" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bk-bagchi&layout=compact&theme=default" alt="Top Languages" />
 </p>
 
 <p align="left">
-	<img alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=bk-bagchi&theme=default" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bk-bagchi&theme=default" alt="GitHub Streak" />
 </p>
 
 ## Contributions & Activity
