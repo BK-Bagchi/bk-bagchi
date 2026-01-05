@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Resume from "../assets/Resume_of_Balay_Kumar_Bagchi.pdf";
 
 export default function Home() {
   return (
@@ -43,7 +44,7 @@ export default function Home() {
 
             {/* Resume Button — filled → outline on hover */}
             <a
-              href="/resume.pdf"
+              href={Resume}
               download
               className="
       px-6 py-3 rounded-md font-bold
