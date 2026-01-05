@@ -80,7 +80,7 @@ const sampleProjects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 bg-gray-50 dark:bg-gray-900">
+    <section id="projects" className="py-24">
       <div className="container mx-auto px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 12 }}

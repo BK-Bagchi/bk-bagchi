@@ -7,7 +7,7 @@ const navItems = [
   { label: "Home", href: "/#home" },
   { label: "About", href: "/#about" },
   { label: "Projects", href: "/#projects" },
-  { label: "Blogs", href: "/#blogs" },
+  { label: "Education", href: "/#education" },
   { label: "Resume", href: "/resume", isRoute: true },
   { label: "Contact", href: "/#contact" },
 ];
@@ -29,7 +29,7 @@ export default function Navbar() {
         zIndex: 40,
         backdropFilter: "blur(6px)",
         background: "rgba(8,8,10,0.6)",
-        borderBottom: "1px solid rgba(255,255,255,0.04)",
+        borderBottom: "1px solid rgba(255,255,255,0.2)",
       }}
     >
       <div

@@ -4,6 +4,7 @@ import About from "../sections/About";
 import Projects from "../sections/Projects";
 import Blogs from "../sections/Blogs";
 import Contact from "../sections/Contact";
+import Education from "../sections/Education";
 import { motion } from "framer-motion";
 
 export default function Mother() {
@@ -31,6 +32,7 @@ export default function Mother() {
     >
       <Home />
       <About />
+      <Education />
       <Projects />
       {/* <Blogs /> */}
       <Contact />
