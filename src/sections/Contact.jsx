@@ -82,7 +82,10 @@ const Contact = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="flex items-center gap-4 my-4"
               >
-                <Phone className="text-primary" size={24} />
+                <Phone
+                  className="text-primary text-gray-700 dark:text-gray-300"
+                  size={24}
+                />
                 <span className="text-gray-700 dark:text-gray-300">
                   +8801308723399
                 </span>
@@ -94,9 +97,12 @@ const Contact = () => {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 className="flex items-center gap-4 my-4"
               >
-                <Home className="text-primary" size={24} />
+                <Home
+                  className="text-primary text-gray-700 dark:text-gray-300"
+                  size={24}
+                />
                 <span className="text-gray-700 dark:text-gray-300">
-                  98/1, Sagorpara, Rajshahi
+                  Khansamar Chak, Ghoramara, Rajshahi
                 </span>
               </motion.div>
 
@@ -106,7 +112,10 @@ const Contact = () => {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="flex items-center gap-4 my-4"
               >
-                <Mail className="text-primary" size={24} />
+                <Mail
+                  className="text-primary text-gray-700 dark:text-gray-300"
+                  size={24}
+                />
                 <span className="text-gray-700 dark:text-gray-300">
                   bkbagchi.dipto@gmail.com
                 </span>
@@ -124,7 +133,10 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-300 hover:text-primary transition"
                 >
-                  <Github size={24} />
+                  <Github
+                    className="text-gray-700 dark:text-gray-300"
+                    size={24}
+                  />
                 </a>
                 <a
                   href="https://facebook.com/bkbagchi.dipto"
@@ -132,7 +144,10 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-300 hover:text-primary transition"
                 >
-                  <Facebook size={24} />
+                  <Facebook
+                    className="text-gray-700 dark:text-gray-300"
+                    size={24}
+                  />
                 </a>
                 <a
                   href="https://twitter.com/bkbagchi"
@@ -140,7 +155,10 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-300 hover:text-primary transition"
                 >
-                  <Twitter size={24} />
+                  <Twitter
+                    className="text-gray-700 dark:text-gray-300"
+                    size={24}
+                  />
                 </a>
                 <a
                   href="https://linkedin.com/in/bkbagchi-dipto/"
@@ -148,7 +166,10 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-300 hover:text-primary transition"
                 >
-                  <Linkedin size={24} />
+                  <Linkedin
+                    className="text-gray-700 dark:text-gray-300"
+                    size={24}
+                  />
                 </a>
               </motion.div>
             </div>
