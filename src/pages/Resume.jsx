@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import PDFResume from "../assets/Resume_of_Balay_Kumar_Bagchi.pdf";
 
 export default function Resume() {
   return (
@@ -21,7 +22,7 @@ export default function Resume() {
 
         <div style={{ marginTop: 18, display: "flex", gap: 12 }}>
           <a
-            href="/resume.pdf"
+            href={PDFResume}
             download
             style={{
               padding: "0.8rem 1.2rem",
