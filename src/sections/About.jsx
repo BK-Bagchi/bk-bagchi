@@ -17,48 +17,85 @@ const ask = [
 
 export default function About() {
   return (
-    <section id="about" style={{ padding: "6rem 0" }}>
+    <section id="about" className="py-24">
       <div className="container">
         <motion.div
           initial={{ opacity: 0, x: -12 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
+          className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start"
         >
-          <h3
-            style={{ color: "var(--primary-color)", fontFamily: "monospace" }}
-          >
-            About
-          </h3>
-          <h2 style={{ marginTop: 8 }}>A short background</h2>
-          <p style={{ maxWidth: 700, color: "#9aa7bf", lineHeight: 1.7 }}>
-            I'm Balay Kumar Bagchi — a MERN stack web developer who builds
-            usable, accessible and maintainable applications. I work primarily
-            with React and Node, and I enjoy designing APIs and
-            developer-friendly systems.
-          </p>
+          {/* Left: About Text */}
+          <div>
+            <h3 className="text-primary font-mono mb-2">About</h3>
+            <h2 className="text-3xl font-bold mb-4">A short background</h2>
 
-          <div
-            style={{
-              display: "flex",
-              gap: 32,
-              marginTop: 20,
-              flexWrap: "wrap",
-            }}
-          >
+            <div className="space-y-4 text-[#9aa7bf] leading-relaxed text-sm sm:text-base max-w-2xl">
+              <p>
+                I am{" "}
+                <span className="text-white font-semibold">
+                  Balay Kumar Bagchi
+                </span>
+                , a motivated Web Developer with a strong academic background,
+                having completed my graduation from Varendra University and
+                post-graduation from the University of Rajshahi. I am currently
+                seeking opportunities as a Junior Frontend Web Developer, where
+                I can apply my skills, learn from experienced professionals, and
+                contribute meaningfully to real-world products.
+              </p>
+
+              <p>
+                I specialize in building clean, responsive, and user-friendly
+                web applications using React, JavaScript, Tailwind CSS,
+                Express.js, MongoDB, Mongoose, and PostgreSQL. I am also
+                familiar with Next.js and TypeScript, and I continuously improve
+                my skills to stay aligned with modern web technologies. I have
+                worked on both full-stack projects and frontend-focused
+                applications, giving me a solid understanding of how systems
+                work end-to-end.
+              </p>
+
+              <p>
+                I am passionate about writing maintainable code, improving user
+                experience, and solving real problems through technology. I aim
+                to grow into a Full-Stack or Backend Developer in the future
+                while delivering reliable, scalable, and high-quality solutions.
+              </p>
+
+              <p>
+                I add value by combining technical skills with a strong learning
+                mindset, attention to detail, and the ability to collaborate
+                effectively with teams to build impactful digital products.
+              </p>
+            </div>
+          </div>
+
+          {/* Right: Skills */}
+          <div className="flex flex-col sm:flex-row gap-12">
             <div>
-              <h4>Languages</h4>
-              <ul>
+              <h4 className="text-lg font-semibold mb-3">Languages</h4>
+              <ul className="space-y-2 text-[#9aa7bf]">
                 {languages.map((l) => (
-                  <li key={l}>{l}</li>
+                  <li
+                    key={l}
+                    className="before:content-['▹'] before:text-primary before:mr-2"
+                  >
+                    {l}
+                  </li>
                 ))}
               </ul>
             </div>
 
             <div>
-              <h4>Ask me about</h4>
-              <ul style={{ maxWidth: 340 }}>
+              <h4 className="text-lg font-semibold mb-3">Ask me about</h4>
+              <ul className="space-y-2 text-[#9aa7bf] max-w-xs">
                 {ask.map((a) => (
-                  <li key={a}>{a}</li>
+                  <li
+                    key={a}
+                    className="before:content-['▹'] before:text-primary before:mr-2"
+                  >
+                    {a}
+                  </li>
                 ))}
               </ul>
             </div>
