@@ -32,7 +32,7 @@ export default function Mother() {
       <Home />
       <About />
       <Projects />
-      <Blogs />
+      {/* <Blogs /> */}
       <Contact />
     </motion.main>
   );
