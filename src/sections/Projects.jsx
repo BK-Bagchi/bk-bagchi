@@ -1,25 +1,27 @@
 import React from "react";
 import { motion } from "framer-motion";
+import BikroyHubPic from "../assets/Bikroy-1.PNG";
+import CollabSpacePic from "../assets/Collab-2.PNG";
+import RailPassPic from "../assets/Rail-1.PNG";
 
 const sampleProjects = [
   {
     id: 1,
     title: "Collab Space",
-    image: "/projects/collab-space.png",
+    image: CollabSpacePic,
     technologies: [
       "React",
-      "Tailwind CSS",
-      "Node.js",
       "Express",
+      "Node.js",
+      "Tailwind CSS",
       "MongoDB",
+      "Mongoose",
       "Socket.IO",
     ],
-    liveLink: "https://collabspace.app",
-    githubLink: "https://github.com/yourusername/collab-space",
+    liveLink: "https://collab-space-server.onrender.com",
+    githubLink: "https://github.com/BK-Bagchi/collab-space",
     challenges: [
-      "Implementing real-time updates with Socket.IO while keeping state in sync",
-      "Designing scalable MongoDB schemas for collaborative data",
-      "Handling authentication and authorization securely",
+      "Collab Space is a full-stack collaboration and productivity platform built with the MERN stack, Socket.IO, and a fully customizable, modern UI. It provides project management, task workflow, real-time messaging, notifications, analytics, notes, and team activity tracking — all in one unified workspace.",
     ],
     futurePlans: [
       "Add voice/video collaboration using WebRTC",
@@ -29,21 +31,21 @@ const sampleProjects = [
   },
   {
     id: 2,
-    title: "StudyMate",
-    image: "/projects/studymate.png",
+    title: "Bikroy Hub",
+    image: BikroyHubPic,
     technologies: [
-      "Next.js",
-      "TypeScript",
-      "PostgreSQL",
-      "Prisma",
-      "Tailwind CSS",
+      "React",
+      "Express",
+      "Node.js",
+      "Bootstrap",
+      "MongoDB",
+      "Mongoose",
+      "Socket.IO",
     ],
-    liveLink: "https://studymate.app",
-    githubLink: "https://github.com/yourusername/studymate",
+    liveLink: "https://bikroyhub-server.onrender.com",
+    githubLink: "https://github.com/BK-Bagchi/bikroy-hub",
     challenges: [
-      "Optimizing server-side rendering performance",
-      "Designing relational schemas for user, notes and reminders",
-      "Ensuring type-safety across frontend and backend",
+      "Bikroy Hub is a peer-to-peer (P2P) marketplace where buyers and sellers can connect, post ads, and exchange goods. It comes with secure authentication, payment escrow system, admin dashboard, and dispute resolution system",
     ],
     futurePlans: [
       "Add AI-powered study recommendations",
@@ -53,15 +55,20 @@ const sampleProjects = [
   },
   {
     id: 3,
-    title: "Banglish Translator",
-    image: "/projects/banglish-translator.png",
-    technologies: ["React", "Node.js", "Express", "NLP", "MongoDB"],
-    liveLink: "https://banglish.app",
-    githubLink: "https://github.com/yourusername/banglish-translator",
+    title: "Rail Pass",
+    image: RailPassPic,
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "SSLCommerz",
+      "EJS Template",
+    ],
+    liveLink: "https://rail-pass.onrender.com",
+    githubLink: "https://github.com/BK-Bagchi/rail-pass",
     challenges: [
-      "Handling ambiguous transliteration cases",
-      "Maintaining fast translations under heavy load",
-      "Designing a clean UX for language switching",
+      "RailPass is a smart railway reservation system that allows users to search trains, check seat availability, book tickets, and manage journeys online. Also let admin to manage trains and stations. It provides real-time fare details, seat selection, and easy booking confirmation, making train travel seamless and convenient.",
     ],
     futurePlans: [
       "Add Chrome extension version",
