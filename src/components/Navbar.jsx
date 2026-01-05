@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "Home", href: "/#home" },
@@ -13,6 +14,7 @@ const navItems = [
 
 export default function Navbar() {
   const location = useLocation();
+  const [open, setOpen] = useState(false);
 
   return (
     <motion.header
@@ -42,12 +44,13 @@ export default function Navbar() {
       >
         <motion.div
           whileHover={{ scale: 1.03 }}
-          style={{ fontWeight: 700, fontSize: "1.25rem" }}
+          style={{ fontWeight: 700, fontSize: "1.25rem", color: "white" }}
         >
-          Balay Kumar Bagchi
+          Balay Bagchi
         </motion.div>
 
-        <nav>
+        {/* Desktop Nav */}
+        <nav className="hidden md:block">
           <ul
             style={{
               display: "flex",
@@ -89,7 +92,69 @@ export default function Navbar() {
             ))}
           </ul>
         </nav>
+
+        {/* Hamburger Button (md and below) */}
+        <button
+          onClick={() => setOpen((prev) => !prev)}
+          className="block md:hidden"
+          style={{ color: "#cfcfcf" }}
+        >
+          {open ? <X size={26} /> : <Menu size={26} />}
+        </button>
       </div>
+
+      {/* Mobile / Tablet Menu */}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25 }}
+            style={{
+              background: "rgba(8,8,10,0.85)",
+              borderTop: "1px solid rgba(255,255,255,0.05)",
+              overflow: "hidden",
+            }}
+            className="lg:hidden"
+          >
+            <ul className="list-none m-0 px-6 py-4 flex flex-col gap-3">
+              {navItems.map((n) => (
+                <li key={n.label}>
+                  {n.isRoute ? (
+                    <Link
+                      to={n.href}
+                      onClick={() => setOpen(false)}
+                      style={{
+                        color:
+                          location.pathname === "/resume"
+                            ? "var(--primary-color)"
+                            : "#cfcfcf",
+                        fontWeight: 600,
+                        textDecoration: "none",
+                      }}
+                    >
+                      {n.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={n.href}
+                      onClick={() => setOpen(false)}
+                      style={{
+                        color: "#cfcfcf",
+                        fontWeight: 600,
+                        textDecoration: "none",
+                      }}
+                    >
+                      {n.label}
+                    </a>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.header>
   );
 }
