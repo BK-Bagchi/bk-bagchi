@@ -18,8 +18,9 @@ const dipto = {
     "Frontend Development",
     "Backend Development",
     "React.js",
-    "Express.js",
     "Next.js",
+    "Node.js",
+    "Express.js",
     "MongoDB",
     "PostgreSQL",
     "Software Engineering",
@@ -52,9 +53,16 @@ const dipto = {
 
     realtimeAndAPIs: ["REST APIs", "WebSockets", "Socket.IO", "Webhooks"],
 
-    ai: ["ChatGPT", "Gemini", "Cursor"],
+    ai: ["ChatGPT", "Gemini", "Cursor", "Copilot"],
 
-    tools: ["VS Code", "Figma", "Git", "GitHub", "Chrome DevTools"],
+    tools: [
+      "VS Code",
+      "Antigravity",
+      "Figma",
+      "Git",
+      "GitHub",
+      "Chrome DevTools",
+    ],
 
     deploy: ["Firebase", "Netlify", "Render", "Vercel"],
   },
@@ -64,9 +72,6 @@ const dipto = {
     backend: ["monolith", "microservices", "serverless"],
     data: ["relational", "nosql", "in-memory"],
   },
-  currentFocus:
-    "Building clean, responsive, and user-friendly web applications using React, JavaScript, Tailwind CSS, Express.js, MongoDB and PostgreSQL",
-  funFact: "Most bugs disappear after a coffee and a clean commit history",
 };
 ```
 
@@ -131,7 +136,7 @@ const dipto = {
   <a href="https://wa.me/88013723399" target="_blank">
     <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
-  <a href="http://bkbagchi-dipto.netlify.app" target="_blank">
+  <a href="http://diptoverse.com" target="_blank">
     <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-4CAF50?style=for-the-badge&logo=appveyor&logoColor=white" />
   </a>
 </p>
