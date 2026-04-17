@@ -4,7 +4,7 @@
 
 # Hi, I'm Balay Kumar Bagchi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />
 
-**Junior Frontend Web Developer** — building accessible and responsive web apps while growing toward full-stack development.
+**Frontend Web Developer** — building accessible and responsive web apps while growing toward full-stack development.
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...
 
